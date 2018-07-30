@@ -1,0 +1,32 @@
+/*#taskTable .edit-modal {*/
+/*margin-right: 5px;*/
+/*}*/
+
+/*#taskTable .append {*/
+/*margin-right: 7px;*/
+/*}*/
+
+#taskTable .wd {
+    width: 45px;
+}
+
+#taskTable .idCol {
+    width: 100px;
+}
+
+#taskTable .progressCol {
+    width: 250px;
+}
+
+#taskTable .updateCol {
+    width: 140px;
+}
+
+#taskTable .actions {
+    width: 120px;
+"
+}
+
+#taskTable .actions .add-modal {
+    width: 85px;
+}
