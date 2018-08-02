@@ -51,6 +51,7 @@ $(document).ready(function () {
                     setTimeout(function () {
                         $('#addModal').modal('show');
                         toastr.error('Validation error!', 'Add Task');
+                        console.log(data.errors);
                     }, 500);
 
                     if (data.errors.name) {

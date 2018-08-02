@@ -21,8 +21,7 @@ class HomeController extends Controller
         [
             'name' => 'required|min:2|max:128',
             'description' => 'required|min:2|max:256',
-            'status' => 'required|integer|between:0,10',
-            'assign' => 'required|integer|min:0'
+            'status' => 'required|integer|between:0,10'
         ];
 
     public function __construct()
